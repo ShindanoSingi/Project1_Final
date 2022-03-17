@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trivia Game</title>
+</head>
+
+<body>
+
+    <div class="containerBox">
+        <h1>TRIVIA GAME</h1>
+        <div class="div1">
+            Loading the question...
+        </div>
+        <div class="labelCategory">Category</div>
+        <p class="category"></p>
+        <div class="underQuestion">
+            <div class="playerAndInnerBox">
+
+
+                <div class="qDifficultyBox">
+                    <p id="question" class="qCat">QUESTION DIFFICULTY</p>
+                    <div class="difficulties">
+                        <button class="difficulty" id="easy">Easy</button>
+                        <button class="difficulty" id="medium">Medium</button>
+                        <button class="difficulty" id="hard">Hard</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="imgAndQuestions">
+                <img class="image" src="download (1).jpeg" alt="Mountains">
+                <div class="answersButtons">
+                    <button class="response" id="response1">Loading the answer...</button>
+                    <button class="response" id="response2">Loading the answer...</button>
+                    <button class="response" id="response3">Loading the answer...</button>
+                    <button class="response" id="response4">Loading the answer...</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="labelsAndButtons">
+            <div class="labelContainer">
+                <div class="labels" id="labelQ">Queston Num.</div>
+                <div class="labels" id="labelC">Correct Ans.</div>
+                <div class="labels" id="labelW">Wrong Ans.</div>
+            </div>
+
+            
+                <div class="timerQuestionCorrectWrong">
+                    <div class="bottombuttons" id="questionNumber">0</div>
+                    <div class="bottombuttons" id="correct">0</div>
+                    <div class="bottombuttons" id="wrong">0</div>
+                </div>
+                <div class="threeBottomButtons">
+                    <button class="reset">Reset</button>
+                    <button class="startGame">Start The Game</button>
+                    <button class="generalAssembly">Thank You GA</button>
+                </div>
+            
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
